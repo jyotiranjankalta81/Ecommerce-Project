@@ -13,6 +13,7 @@
     padding: 80px 0 0 10px;
     transition: 0.8s ease-in-out;
   }
+
   #arrowClose {
     position: absolute;
     top: 30px;
@@ -80,19 +81,73 @@
 }
 
 /* Responsive Code for Small Devices  */
-/* 
+
 @media (max-width: 415px) {
   #bg {
     height: 50vh;
     padding: 0 15px;
   }
-  #bg h2{
+  #bg h2 {
     font-size: 25px;
   }
-  #bg h1{
+  #bg h1 {
     font-size: 38px;
   }
-  #bg p{
+  #bg p {
     font-size: 11px;
   }
-} */
+  #featuresContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  #featursProducts .define h1 {
+    font-size: 25px;
+  }
+  .section-p1 {
+    padding: 40px 10px;
+  }
+  .featuresProcutsItems {
+    width: 180px;
+
+    padding: 15px 12px;
+    margin: 15px 0;
+  }
+  #repairService h6 {
+    font-size: 20px;
+  }
+  #repairService h4 {
+    font-size: 18px;
+  }
+  #repairService {
+    height: 180px;
+  }
+  .section-p1 {
+    padding: 18px 10px;
+  }
+  #adBanner .bannerOne {
+    min-width: 394px;
+    height: 22vh;
+    padding: 10px 25px;
+    border-radius: 4px;
+    margin: 10px 0;
+  }
+  #adBanner .bannerOne h2 {
+    font-size: 30px;
+  }
+  #unqBanner .unqListItemThree {
+    width: 77%;
+  }
+  #navBar {
+    padding: 10px 20px;
+  }
+  #footerContainer .footerList h5 {
+    padding: 10px;
+  }
+  .footerList{
+    margin: 10px;
+  }
+}

@@ -1,0 +1,98 @@
+/* Responsive code For Medium Devices  */
+
+@media (max-width: 770px) {
+  #navListItems {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    background-color: rgb(214, 237, 255);
+    padding: 80px 0 0 10px;
+    transition: 0.8s ease-in-out;
+  }
+  #arrowClose {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+  }
+  #navListItems li {
+    margin-bottom: 25px;
+  }
+  #navListItems.active {
+    right: 0;
+  }
+  .responsiveNav {
+    display: flex;
+    flex-flow: row-reverse;
+    width: 100px;
+    justify-content: space-evenly;
+  }
+  .responsiveNav li {
+    list-style: none;
+  }
+  #respBag {
+    display: none;
+  }
+  #arrowClose {
+    display: block;
+  }
+  #unqBanner .unqListItemThree {
+    width: 88%;
+  }
+  #adBanner .bannerOne {
+    height: 40vh;
+    width: 100%;
+  }
+  #adBanner .bannerTwo {
+    width: 101%;
+  }
+  #bg {
+    height: 70vh;
+    background-position: top 30% right 30%;
+  }
+  #bg h2 {
+    font-size: 35px;
+  }
+  #bg h1 {
+    font-size: 38px;
+  }
+  #bg p {
+    font-size: 14px;
+  }
+  #featuresContainer {
+    justify-content: center;
+  }
+  #featuresContainer .items {
+    margin: 15px 15px;
+  }
+  #footerContainer {
+    justify-content: flex-start;
+  }
+  #install {
+    margin-top: 50px;
+  }
+  #footerContainer .footerList .pay-play .play {
+    margin: 0 10px;
+  }
+}
+
+/* Responsive Code for Small Devices  */
+/* 
+@media (max-width: 415px) {
+  #bg {
+    height: 50vh;
+    padding: 0 15px;
+  }
+  #bg h2{
+    font-size: 25px;
+  }
+  #bg h1{
+    font-size: 38px;
+  }
+  #bg p{
+    font-size: 11px;
+  }
+} */

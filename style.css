@@ -52,7 +52,7 @@ p {
   justify-content: space-between;
   align-items: center;
   box-shadow: 10px 5px 55px rgba(0, 0, 0, 0.1);
-  top:0px;
+  top: 0px;
   position: sticky;
 
   left: 0px;
@@ -544,4 +544,63 @@ p {
 }
 .tradeMark a {
   text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Shop Page Section  */
+
+#pageBg {
+  background-image: url("img/banner/b1.jpg");
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+#pageBg h2 {
+  color: #fff;
+}
+#pageBg p {
+  color: #fff;
+}
+#pagination {
+  display: flex;
+  justify-content: center;
+}
+#pagination a {
+  text-decoration: none;
+  margin: 0 10px;
+  background-color: #088178;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px 14px;
+  font-weight: 600;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+#pagination a:hover{
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  
+}
+#pagination a i {
+  font-size: 18px;
+  font-weight: 900;
 }

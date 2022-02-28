@@ -80,6 +80,13 @@
   }
 }
 
+
+
+
+
+
+
+
 /* Responsive Code for Small Devices  */
 
 @media (max-width: 415px) {
@@ -150,4 +157,23 @@
   .footerList{
     margin: 10px;
   }
+  #productDetails{
+    flex-direction: column;
+  }
+  #productDetails .contentSection {
+    width: 100%;
+    margin-top: 50px;
+ }
+ #productDetails .imageSection {
+  width: 100%;
+
 }
+#productDetails .contentSection select {
+  margin: 18px 0;
+ 
+}
+}
+
+
+
+

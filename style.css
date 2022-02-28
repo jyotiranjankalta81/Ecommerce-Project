@@ -546,19 +546,6 @@ p {
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Shop Page Section  */
 
 #pageBg {
@@ -596,11 +583,78 @@ p {
   outline: none;
   transition: 0.3s;
 }
-#pagination a:hover{
+#pagination a:hover {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  
 }
 #pagination a i {
   font-size: 18px;
   font-weight: 900;
+}
+
+
+
+
+
+
+
+/* Product Details Section  */
+
+#productDetails {
+  display: flex;
+}
+#productDetails .contentSection {
+  width: 50%;
+  margin-top: 50px;
+}
+#productDetails .imageSection {
+  width: 40%;
+  margin-right: 50px;
+}
+.small-images-container {
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+#productDetails .contentSection h5 {
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+#productDetails .contentSection h4 {
+  padding-bottom: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#productDetails .contentSection h3 {
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+#productDetails .contentSection select {
+  margin-bottom: 10px;
+  padding: 4px 5px;
+  cursor: pointer;
+}
+#productDetails .contentSection input {
+  margin-bottom: 30px;
+  padding: 5px 5px;
+  width: 40px;
+  outline: none;
+  font-weight: 600;
+}
+#productDetails .contentSection button {
+  padding: 7px 20px;
+  background-color: #088178;
+  color: #fff;
+  font-weight: 400;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+#productDetails .contentSection p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #222;
 }

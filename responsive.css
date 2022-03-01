@@ -81,6 +81,24 @@
 }
 
 
+  /* Responsive for very Small Devices  */
+
+
+  @media (max-width:380px){
+    #footerContainer .footerList .pay-play .play {
+      margin: 10px 0;
+  }
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -154,26 +172,50 @@
   #footerContainer .footerList h5 {
     padding: 10px;
   }
-  .footerList{
+  .footerList {
     margin: 10px;
   }
-  #productDetails{
+  #productDetails {
     flex-direction: column;
   }
   #productDetails .contentSection {
     width: 100%;
     margin-top: 50px;
- }
- #productDetails .imageSection {
-  width: 100%;
+  }
+  #productDetails .imageSection {
+    width: 100%;
+  }
+  #productDetails .contentSection select {
+    margin: 18px 0;
+  }
 
+
+
+
+  /* blog Section  */
+
+
+
+  #blog .blogBox {
+    flex-direction: column;
 }
-#productDetails .contentSection select {
-  margin: 18px 0;
+.blogBox .imgBox {
+  width: 100%;
+ 
+ }
+.blogBox .contentDetails {
+  width: 100%;
+  
+ }
+#blog .blogBox {
+  margin: 150px 10px 0 10px;
+  
+}
+.blogBox .contentDetails {
+  margin: 50px 0;
  
 }
+
+
+
 }
-
-
-
-
